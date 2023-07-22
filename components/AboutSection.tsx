@@ -6,13 +6,17 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "JQuery" },
   { skill: "React" },
+  { skill: "Redux/Saga"},
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Node.js" },
+  { skill: "RESTful API's"},
+  { skill: "postgreSQL"},
+  { skill: "Bootstrap"}
 ]
 
 const AboutSection = () => {
@@ -30,22 +34,23 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Luis and I am a US Army Veteran that is a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Atlanta, GA.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Prime Digital Academy in 2023
+              with a technical degree in Full-Stack Engineering and have been increasing my skills and knowledge ever
+               since. Although I am still fairly new to the field, my ability for learning new things in a short period
+               of time speaks for itself. 
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From Video Games, Archery, Shooting Ranges, to keeping my body healthy through fitness,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
@@ -75,13 +80,16 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
-              src="/hero-image.png"
+            <div className="mt-6">
+              <Image
+              src="/Coder.gif"
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-4 md:left-30 md:z-0"
             />
+            </div>
+            
           </div>
         </div>
       </div>

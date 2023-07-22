@@ -6,27 +6,19 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Foodi-4-Foodies",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Foodi-4-Foodies is a web app that helps individuals or groups figure out where they want to go out to eat",
+    image: "/f4f-landing.png",
+    github: "https://github.com/MrOrtiz1988/Foodi4Foodies",
+    link: "https://serene-reef-24123.herokuapp.com/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "Prime Alumni Resources",
+    description: "Prime alumni database is an app to connect prime alumni. Pad gives primers the ability to share resources , job opportunities and to stay connected with the prime community.",
+    image: "/PAR.png",
+    github: "https://github.com/PrimeAlumniResources/Prime-Alumni-Resources",
+    link: "https://github.com/PrimeAlumniResources/Prime-Alumni-Resources",
   },
 ]
 
@@ -45,7 +37,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.link} target="_blank">
                       <Image
                         src={project.image}
                         alt=""
